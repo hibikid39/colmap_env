@@ -9,6 +9,7 @@ RUN apt install -y \
     git \
     sudo \
     wget \
-    libgl1-mesa-dev
+    libgl1-mesa-dev \
+    imagemagick
 
 RUN apt install -y python3 python3-pip
