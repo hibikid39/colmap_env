@@ -1,4 +1,9 @@
 # colmap_env
+## Installation
+```bash
+docker build -t colmap_env .
+docker run --gpus all -w /working -v $(pwd):/working -it colmap_env:latest
+```
 
 ## Processing your own Scenes
 
